@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+        }
+        h1 {
+            margin: 0;
+        }
+        p {
+            color: #666;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .content {
+            margin: 50px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #4CAF50;
+        }
+        a:hover {
+            color: #3e8e41;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Static Website</h1>
+    </header>
+    <div class="content">
+        <p>This is the homepage hosted on AWS S3. Here's an updated look!</p>
+        <p><a href="https://www.example.com" target="_blank">Click here for more information</a></p>
+    </div>
+    <footer>
+        <p>&copy; 2024 My Static Website</p>
+    </footer>
+</body>
+</html>
